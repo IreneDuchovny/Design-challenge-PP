@@ -12,22 +12,16 @@
 @import "basics/forms";
 
 
-// Views
-@import "views/about-us";
-@import "views/home-page";
-@import "views/car-app";
-@import "views/review-app";
-@import "views/user-details";
-
 // Components
 @import "cmps/app-header";
 @import "cmps/app-footer";
-@import "cmps/user-msg";
-@import "cmps/shopping-cart";
+
 
 @import "cmps/home-top-section";
 @import "cmps/home-middle-section";
 @import "cmps/home-last-section";
+@import "cmps/home-pink-bottom";
+@import "cmps/contact-us-btn";
 
 
 

@@ -6,7 +6,7 @@ import { ReactComponent as SideCircles } from "../assets/img/bg-pattern-home-1.s
 export function HomeTopSection() {
     return (
 
-        <div className="main-with-circle column">
+        <div className="main-with-circle main-container column">
             <div className="home-top-section-container flex row">
                 {/* <div className="side-circles full  ">
                 <SideCircles/></div> */}

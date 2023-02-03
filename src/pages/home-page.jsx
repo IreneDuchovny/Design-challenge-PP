@@ -5,6 +5,7 @@ import React from 'react'
 import { HomeTopSection } from '../cmps/home-top-section'
 import { HomeMiddleSection } from '../cmps/home-middle-section'
 import { HomeLastSection } from '../cmps/home-last-section'
+import { HomePinkBottom } from '../cmps/home-pink-bottom'
 
 
 export function HomePage() {
@@ -22,6 +23,7 @@ export function HomePage() {
             <HomeTopSection />
             <HomeMiddleSection/>
             <HomeLastSection/>
+            <HomePinkBottom/>
             {/* <img src={logo} alt="Logo" style={{ maxWidth: '300px' }} /> */}
 
         </section >

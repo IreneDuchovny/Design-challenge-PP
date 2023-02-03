@@ -2,7 +2,8 @@ import { ReactComponent as Quate } from "../assets/img/icon-quotes.svg"
 import Kady from '../assets/img/avatar-kady.jpg'
 import Aiysha from '../assets/img/avatar-aiysha.jpg'
 import Arthur from '../assets/img/avatar-arthur.jpg'
-
+import { ReactComponent as LastRightCircle } from "../assets/img/bg-pattern-home-5.svg"
+import { ReactComponent as LastLeftCircle } from "../assets/img/bg-pattern-home-4-about-3.svg"
 
 export function HomeLastSection() {
 
@@ -28,7 +29,7 @@ export function HomeLastSection() {
 
     return (
         <div className="home-last-section-main-container flex column main-container">
-            <div className="left-full-icon full">left icon</div>
+            <div className="left-full-icon full flex start"><LastLeftCircle /></div>
             <div className="content-last-header-container">Delivering real results for top companies. Some of our
                 <span className="header-span"> success stories.</span></div>
             <div className="quates-container flex row">
@@ -42,7 +43,7 @@ export function HomeLastSection() {
                 }
                 )}
             </div>
-            <div className="right-full-icon">right icon</div>
+            <div className="right-full-icon full flex end"><LastRightCircle /></div>
         </div>
 
     )
