@@ -1,0 +1,83 @@
+.app-header {
+    background-color: $clr1;
+    padding: 73px  73px ;
+
+    .main-logo-nav-container {
+        width: 34.55%;
+        // width: 80%;
+        // margin:50px;
+    }
+.contact-me-btn{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #ffffff;
+    justify-content: center;
+    align-items: center;
+    color: $clr3;
+
+}
+    .about-home-container {
+        width: 36.84%;
+
+        .header-logo {
+            align-self: center;
+        }
+
+        .header-about,
+        .header-home,
+        .contact-me-btn  {
+            color: $clr3;
+            align-self: center;
+        }
+    }
+
+    .user-info {
+        // background-color: $clr2;
+        // padding: 2px 8px;
+        padding-left: 100px;
+        color: $clr1;
+
+        // .score {
+        //     background-color: $clr2;
+        //     color: $clr6;
+        //     padding: 8px;
+        //     margin: 10px;
+        //     border-radius: 50%;
+        // }
+
+        img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+    }
+
+    .user-info .btn-link {
+        color: $clr2;
+    }
+
+    nav {
+        font-size: .8em;
+        // background-color: $clr5;
+        // padding: 5px;
+
+    }
+
+    nav a:first-child {
+        margin-right: 30px;
+    }
+
+    nav a:not(:first-child) {
+        border-top: 1px solid $clr1;
+        padding: 0 5px;
+        margin: 10px;
+    }
+
+    nav .active {
+        color: $clr1;
+    }
+
+}

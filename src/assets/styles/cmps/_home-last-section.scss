@@ -1,0 +1,67 @@
+.content-last-header-container {
+    color: #ffffff;
+    font-family: Livvic-SemiBold;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+
+    .header-span {
+        color: $clr4;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+}
+
+.quates-container {
+    .quate-container {
+        margin: 30px;
+        justify-content: space-evenly;
+    }
+
+    .quate-img {
+        align-self: center;
+        transform: translateY(50%);
+        z-index: -1;
+    }
+
+    .quate-section {
+        color: $clr3;
+        font-family: Livvic-SemiBold;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .profile-name {
+        color: $clr4;
+        font-family: Livvic-SemiBold;
+        font-size: rem(18px);
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .profile-quate-round-img {
+        width: 62px;
+        height: 62px;
+        border: 2px solid #c4fffe;
+        border-radius: 50%;
+        align-self: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+}
